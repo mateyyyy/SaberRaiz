@@ -1,7 +1,7 @@
 const carouselImages = [
   {
     id: 1,
-    src: "public\\producto.jpeg",
+    src: "/producto.jpeg",
     alt: "Producto 1",
     title: "Mix de Especias",
     description:
@@ -9,7 +9,7 @@ const carouselImages = [
   },
   {
     id: 2,
-    src: "public\\producto1.jpeg",
+    src: "/producto1.jpeg",
     alt: "Producto 2",
     title: "Té Natural",
     description:
@@ -17,7 +17,7 @@ const carouselImages = [
   },
   {
     id: 3,
-    src: "public\\producto3.jpeg",
+    src: "/producto3.jpeg",
     alt: "Producto 2",
     title: "Molinillo de jengibre",
     description:
