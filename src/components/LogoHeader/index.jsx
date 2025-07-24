@@ -24,7 +24,7 @@ export default function LogoHeader() {
       }}
     >
       <img
-        src="src/assets/LogoCanva.png"
+        src="public\LogoCanva.png"
         alt="Logo"
         height={"100vh"}
         style={{
