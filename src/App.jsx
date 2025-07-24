@@ -1,5 +1,5 @@
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import FrontPage from "./pages/frontPage";
+import FrontPage from "./pages/FrontPage";
 
 const theme = createTheme({
   palette: {
