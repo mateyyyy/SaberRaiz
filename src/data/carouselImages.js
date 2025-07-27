@@ -1,7 +1,7 @@
 const carouselImages = [
   {
     id: 1,
-    src: "/producto.jpeg",
+    src: "/producto1.jpeg",
     alt: "Producto 1",
     title: "Mix de Especias",
     description:
