@@ -2,29 +2,25 @@ import { Box } from "@mui/material";
 import LogoHeader from "../../components/LogoHeader";
 import Products from "../../components/Products";
 import ContactUs from "../../components/ContactUs";
-
+import Footer from "../../components/Footer";
 export default function FrontPage() {
   return (
     <Box
       sx={{
         height: "100vh",
         overflowY: "scroll",
-        scrollSnapType: "y mandatory",
       }}
     >
-      <Box
-        sx={{
-          scrollSnapAlign: "start",
-        }}
-      >
+      <Box>
         <LogoHeader />
       </Box>
-      <Box sx={{ scrollSnapAlign: "start" }}>
+      <Box>
         <Products />
       </Box>
-      <Box sx={{ scrollSnapAlign: "start" }}>
+      <Box>
         <ContactUs />
       </Box>
+      <Footer></Footer>
       {/* Agregá más secciones si querés */}
     </Box>
   );

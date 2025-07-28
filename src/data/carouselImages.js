@@ -7,14 +7,7 @@ const carouselImages = [
     description:
       "Combinación artesanal de especias seleccionadas para realzar tus platos.",
   },
-  {
-    id: 2,
-    src: "/producto1.jpeg",
-    alt: "Producto 2",
-    title: "Té Natural",
-    description:
-      "Infusión de hierbas naturales con propiedades relajantes y aroma intenso.",
-  },
+
   {
     id: 3,
     src: "/producto3.jpeg",

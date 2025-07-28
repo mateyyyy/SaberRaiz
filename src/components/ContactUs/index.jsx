@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-
 export default function ContactUs() {
   const whatsappLink = "https://wa.link/4a5pjf"; // reemplazalo por tu link real
 
   return (
     <Box
+      id="contacto"
       sx={{
         display: "flex",
         flexDirection: "column",
@@ -43,6 +43,15 @@ export default function ContactUs() {
       >
         Contactanos por WhatsApp
       </Button>
+      <Typography
+        variant="body2"
+        mb={3}
+        textAlign={"center"}
+        color="#F3F8FB"
+        fontFamily={"Montserrat"}
+      >
+        +542657541156
+      </Typography>
     </Box>
   );
 }

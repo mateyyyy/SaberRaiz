@@ -1,0 +1,22 @@
+#iconButon {
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  color: white;
+}
+
+.item {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imgAndName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

@@ -1,15 +1,6 @@
-import { Box, IconButton } from "@mui/material";
-import React from "react";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-
+import { Box } from "@mui/material";
+import ScrollDownButton from "../ScrollDownButton";
 export default function LogoHeader() {
-  const handleScroll = () => {
-    const target = document.getElementById("destino");
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <Box
       sx={{
@@ -34,18 +25,7 @@ export default function LogoHeader() {
         }}
       />
 
-      <IconButton
-        onClick={handleScroll}
-        sx={{
-          position: "absolute",
-          bottom: 20,
-          color: "white",
-          backgroundColor: "rgba(0,0,0,0.2)",
-          "&:hover": { backgroundColor: "rgba(0,0,0,0.4)" },
-        }}
-      >
-        <KeyboardArrowDownIcon fontSize="large" />
-      </IconButton>
+      <ScrollDownButton destino={"destino"} />
     </Box>
   );
 }
