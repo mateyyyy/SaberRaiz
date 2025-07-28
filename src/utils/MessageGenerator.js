@@ -6,9 +6,9 @@ export const MessageGenerator = (productos, personalData, total) => {
 ${productos
   .map(
     (prod) =>
-      `• ${prod.cant} x ${prod.name} — *$${(prod.price * prod.cant).toFixed(
+      `• _${prod.cant} x ${prod.name} — *$${(prod.price * prod.cant).toFixed(
         2
-      )}*`
+      )}*_`
   )
   .join("\n")}
 

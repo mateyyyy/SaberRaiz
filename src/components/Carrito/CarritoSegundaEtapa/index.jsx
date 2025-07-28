@@ -88,7 +88,7 @@ export default function CarritoSegundaEtapa({
                 <TextField
                   label="Piso / Dpto."
                   value={personalData.floor}
-                  sx={{ width: "25%", marginLeft: "1rem" }}
+                  sx={{ width: "42%", marginLeft: "1rem" }}
                   name="floor"
                   onChange={(e) => {
                     handleChange(e);
