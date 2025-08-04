@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "Lata con blend de especias",
     description: "Mezcla artesanal de : jengibre, cúrcuma, pimienta y limón.",
-    image: "/prod2.png",
+    image: "/prod2.webp",
     price: 5000,
   },
   {
@@ -11,7 +11,7 @@ const products = [
     name: "Té Verde con Menta",
     description:
       "Refrescante infusión de té verde con hojas de menta natural. Energizante y digestivo.",
-    image: "/prod1.png",
+    image: "/prod1.webp",
     price: 8000,
   },
   {
@@ -19,7 +19,7 @@ const products = [
     name: "Sal de Himalaya Rosada",
     description:
       "Sal gourmet 100% natural, rica en minerales. Perfecta para realzar el sabor de tus platos.",
-    image: "/prod3.png",
+    image: "/prod3.webp",
     price: 4500,
   },
   // {
