@@ -1,43 +1,51 @@
 const products = [
   {
     id: 1,
-    name: "Lata con blend de especias",
-    description: "Mezcla artesanal de : jengibre, cúrcuma, pimienta y limón.",
-    image: "/prod2.png",
-    price: 5000,
+    name: "Molinillo con Blend de especias",
+    description:
+      "Especias con potentes propiedades antiinflamatorias y antioxidantes.",
+    usage: "Para dar un toque exótico a los tragos, comidas o infusiones.",
+    image: "/molinillo.png" /* Assuming this is the suggested image */,
+    price: 25000,
   },
   {
     id: 2,
-    name: "Té Verde con Menta",
+    name: "Molinillo con frasco RE-FILL ",
     description:
-      "Refrescante infusión de té verde con hojas de menta natural. Energizante y digestivo.",
-    image: "/prod1.png",
-    price: 8000,
+      "Molinillo con Blend de especias: jengibre, cúrcuma, cardamomo, pimienta y limón.",
+    usage: "Para dar un toque exótico a los tragos, comidas o infusiones.",
+    image:
+      "/molinillo combo.png" /* Assuming this is a good image for refill */,
+    price: 30000,
   },
   {
     id: 3,
-    name: "Sal de Himalaya Rosada",
+    name: "Leche Dorada (Golden Milk)",
     description:
-      "Sal gourmet 100% natural, rica en minerales. Perfecta para realzar el sabor de tus platos.",
-    image: "/prod3.png",
+      "Gracias a la combinación de especias con propiedades antibacterianas y antivirales, puede ayudar a fortalecer el sistema inmunológico y proteger contra resfriados e infecciones.",
+    usage: "Consumir caliente como bebida reconfortante.",
+    image:
+      "/lechedorada.png" /* Assuming this is a good image for golden milk */,
     price: 4500,
   },
-  // {
-  //   id: 4,
-  //   name: "Cúrcuma Molida Premium",
-  //   description:
-  //     "Cúrcuma de alta calidad, ideal para guisos, sopas y batidos saludables.",
-  //   image: "/curcuma.png",
-  //   price: "5200",
-  // },
-  // {
-  //   id: 5,
-  //   name: "Té de Hibiscus con Frutos Rojos",
-  //   description:
-  //     "Infusión floral con notas frutales. Rica en antioxidantes, ideal para consumir fría o caliente.",
-  //   image: "/hibiscus.png",
-  //   price: "7500",
-  // },
+  {
+    id: 4,
+    name: "Hibiscus",
+    description:
+      "Infusión de hibiscus con propiedades antioxidantes y refrescantes.",
+    usage: "Como té frío o caliente.",
+    image: "/hibiscus.png" /* Assuming this is a good image for hibiscus */,
+    price: 4500,
+  },
+  {
+    id: 5,
+    name: "Blend de Especias",
+    description:
+      "Jengibre, cúrcuma, pimienta, cardamomo, citrus. Fortalece el sistema inmunológico y protege contra resfriados.",
+    usage: "Como infusión o para agregar a la yerba mate.",
+    image: "/blendSpecias.png" /* Assuming this is a good image for blend */,
+    price: 4500,
+  },
 ];
 
 export default products;
