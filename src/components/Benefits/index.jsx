@@ -31,15 +31,16 @@ function Benefits() {
       sx={{
         textAlign: "center",
         padding: "80px 20px",
-        backgroundColor: "#f0e6d2",
       }}
       className="section-spacing"
     >
       <Typography
         variant="h4"
-        component="h2"
+        textAlign="center"
+        fontFamily="Montserrat"
+        color="#F3F8FB"
         gutterBottom
-        sx={{ marginBottom: "40px" }}
+        sx={{ fontSize: { xs: "1.5rem", md: "2.125rem" } }}
       >
         NUESTROS BENEFICIOS
       </Typography>

@@ -1,24 +1,13 @@
 import { Box, Typography } from "@mui/material";
-import Slider from "react-slick";
-import carouselImages from "../../data/carouselImages";
 import products from "../../data/products";
 import Carrito from "../Carrito";
-import ScrollDownButton from "../ScrollDownButton";
 import Product from "../Product";
 import "@fontsource/montserrat";
 import { useState } from "react";
+import Benefits from "../Benefits";
 export default function Products() {
   const [carrito, setCarrito] = useState({});
   const [prodEnCarrito, setProdEnCarrito] = useState({});
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2500,
-  };
   const modificarCantidad = (id, cantidad) => {
     if (!prodEnCarrito[id]) return;
 
@@ -96,65 +85,7 @@ export default function Products() {
           );
         })}
       </Box>
-      <Box
-        sx={{
-          py: { xs: 3, md: 5 },
-          maxWidth: { xs: "95vw", sm: "600px", md: "800px" },
-          width: "100%",
-
-          borderRadius: 3,
-          backgroundColor: "#6C4027",
-        }}
-      >
-        <Slider {...settings}>
-          {carouselImages.map((prod) => (
-            <Box
-              key={prod.id}
-              sx={{
-                width: "100%",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                flexDirection: "column",
-                px: 2,
-              }}
-            >
-              <Box
-                component="img"
-                src={prod.src}
-                alt={prod.alt}
-                sx={{
-                  width: "100%",
-                  maxHeight: { xs: "400px", sm: "70vh" },
-                  objectFit: "cover",
-                  borderRadius: 2,
-                  boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
-                }}
-              />
-
-              <Box sx={{ mt: 2, px: 1 }}>
-                <Typography
-                  variant="h6"
-                  color="white"
-                  fontFamily="Montserrat"
-                  textAlign="center"
-                >
-                  {prod.title}
-                </Typography>
-                <Typography
-                  variant="body2"
-                  color="#E0E0E0"
-                  fontFamily="Montserrat"
-                  textAlign="center"
-                  mt={1}
-                >
-                  {prod.description}
-                </Typography>
-              </Box>
-            </Box>
-          ))}
-        </Slider>
-      </Box>
+      <Benefits />
       <Carrito
         productos={Object.values(prodEnCarrito)}
         modificarCantidad={modificarCantidad}

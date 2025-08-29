@@ -2,8 +2,7 @@ const products = [
   {
     id: 1,
     name: "Molinillo con Blend de especias",
-    description:
-      "Especias con potentes propiedades antiinflamatorias y antioxidantes.",
+    description: "Especias con propiedades antiinflamatorias y antioxidantes.",
     usage: "Para dar un toque exótico a los tragos, comidas o infusiones.",
     image: "/molinillo.png" /* Assuming this is the suggested image */,
     price: 25000,
@@ -22,7 +21,7 @@ const products = [
     id: 3,
     name: "Leche Dorada (Golden Milk)",
     description:
-      "Gracias a la combinación de especias con propiedades antibacterianas y antivirales, puede ayudar a fortalecer el sistema inmunológico y proteger contra resfriados e infecciones.",
+      "Con especias antibacterianas y antivirales, fortalece el sistema inmunológico y protege contra resfriados.",
     usage: "Consumir caliente como bebida reconfortante.",
     image:
       "/lechedorada.png" /* Assuming this is a good image for golden milk */,

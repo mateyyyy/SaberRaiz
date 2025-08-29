@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 
-export default function ProdItem({ prod, res = "70px" }) {
+export default function ProdItem({ prod, res = 70 }) {
   const fontSizeResponsive = { xs: 12, sm: 13, md: 14, lg: 14, xl: 16 };
 
   return (
@@ -10,30 +10,34 @@ export default function ProdItem({ prod, res = "70px" }) {
         display: "flex",
         flexDirection: "row",
         alignItems: "center",
-        justifyContent: "start",
+        gap: 2,
+        p: 1,
       }}
     >
-      <img
-        src={prod.image}
-        width={res}
-        height={res}
-        alt=""
-        style={{
-          borderRadius: "50%",
-          objectFit: "cover",
-          maxHeight: res,
-          minWidth: res,
-          maxWidth: res,
-          boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-        }}
-      />
       <Box
         sx={{
-          display: "flex",
-          flexDirection: "column",
-          marginLeft: "1rem",
+          width: `${res}px`,
+          height: `${res}px`,
+          borderRadius: "50%",
+          overflow: "hidden",
+          flexShrink: 0,
+          boxShadow: "0 3px 8px rgba(0,0,0,0.24)",
         }}
       >
+        <img
+          src={prod.image}
+          alt={`Producto ${prod.name}`}
+          loading="lazy"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            display: "block",
+          }}
+        />
+      </Box>
+
+      <Box sx={{ flex: 1 }}>
         <Typography
           variant="h6"
           component="h2"
@@ -45,13 +49,13 @@ export default function ProdItem({ prod, res = "70px" }) {
             lg: 18,
             xl: 18,
           }}
+          sx={{ mb: 0.5 }}
         >
           {prod.name}
         </Typography>
         <Typography
-          variant="h6"
-          component="h3"
-          color="gray"
+          variant="body2"
+          color="text.secondary"
           fontSize={fontSizeResponsive}
           sx={{
             wordBreak: "break-word",
