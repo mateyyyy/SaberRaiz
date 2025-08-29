@@ -108,6 +108,7 @@ export default function ProductCard({
               variant="subtitle2"
               color="#6C4027" // color más destacado que el gris
               fontFamily="Montserrat"
+              textAlign={"center"}
               sx={{
                 mt: 1,
                 mb: 1,
@@ -119,7 +120,7 @@ export default function ProductCard({
                 display: "inline-block",
               }}
             >
-              Uso: {product.usage}
+              {product.usage}
             </Typography>
           )}
           <Typography
