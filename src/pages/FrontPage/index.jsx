@@ -1,27 +1,26 @@
 import { Box } from "@mui/material";
-import LogoHeader from "../../components/LogoHeader";
 import Products from "../../components/Products";
+import Welcome from "../../components/Welcome";
 import ContactUs from "../../components/ContactUs";
+import ScrollDownButton from "../../components/ScrollDownButton";
 import Footer from "../../components/Footer";
+import LogoHeader from "../../components/LogoHeader";
+
 export default function FrontPage() {
   return (
     <Box
       sx={{
-        height: "100vh",
-        overflowY: "scroll",
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        position: "relative",
       }}
     >
-      <Box>
-        <LogoHeader />
-      </Box>
-      <Box>
-        <Products />
-      </Box>
-      <Box>
-        <ContactUs />
-      </Box>
-      <Footer></Footer>
-      {/* Agregá más secciones si querés */}
+      <LogoHeader />
+      <Products />
+      <ContactUs />
+      <ScrollDownButton />
+      <Footer />
     </Box>
   );
 }

@@ -22,7 +22,7 @@ export default function ProductCard({
         borderRadius: 3,
         margin: 2,
         width: "100%",
-        maxWidth: 500,
+        maxWidth: 600,
         height: { xs: "auto", md: 550 },
         transition: "all 0.3s ease-in-out",
         border: "1px solid rgba(108, 64, 39, 0.1)",
@@ -39,7 +39,7 @@ export default function ProductCard({
     >
       <Box
         sx={{
-          width: { xs: "100%", sm: "250px" },
+          width: { xs: "100%", sm: "300px" },
           position: "relative",
           overflow: "hidden",
           borderRadius: 2,

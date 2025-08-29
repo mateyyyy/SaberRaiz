@@ -3,6 +3,9 @@ import { Box, Typography, Grid } from "@mui/material";
 import SpaIcon from "@mui/icons-material/Spa";
 import LocalFloristIcon from "@mui/icons-material/LocalFlorist";
 import RestaurantIcon from "@mui/icons-material/Restaurant";
+import LocalShippingIcon from "@mui/icons-material/LocalShipping";
+import PaymentsIcon from "@mui/icons-material/Payments";
+import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 
 function Benefits() {
   const benefitsData = [
@@ -23,6 +26,18 @@ function Benefits() {
       title: "Calidad Artesanal",
       description:
         "Cada mezcla es cuidadosamente elaborada con especias y tés de la más alta calidad.",
+    },
+    {
+      icon: (
+        <LocalShippingIcon sx={{ fontSize: 40, mb: 1, color: "#e67e22" }} />
+      ),
+      title: "Envío Gratis",
+      description: "En Villa Mercedes. Consultá envíos a todo el país",
+    },
+    {
+      icon: <PaymentsIcon sx={{ fontSize: 40, mb: 1, color: "#e67e22" }} />,
+      title: "Pago Seguro",
+      description: "Aceptamos todas las tarjetas y métodos de pago.",
     },
   ];
 

@@ -2,8 +2,8 @@ const products = [
   {
     id: 1,
     name: "Molinillo con Blend de especias",
-    description:
-      "Blend de especias con propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores.",
+    description: `Blend de especias: jengibre, cúrcuma, cardamomo, pimienta y limón.
+Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
     usage:
       "Perfecto para dar un toque exótico a tragos y comidas, o para tus infusiones.",
     image: "/molinillo.png",

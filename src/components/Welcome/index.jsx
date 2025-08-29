@@ -6,12 +6,18 @@ import {
   Container,
   useTheme,
   useMediaQuery,
+  Button,
 } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import "@fontsource/montserrat";
 
 function Welcome() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
+  const scrollToProducts = () => {
+    document.getElementById("destino").scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <Box
@@ -36,6 +42,20 @@ function Welcome() {
       }}
     >
       <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
+        <Typography
+          variant="h3"
+          component="h1"
+          gutterBottom
+          fontFamily="Montserrat"
+          sx={{
+            fontSize: { xs: "2rem", md: "3rem" },
+            color: "#6C4027",
+            mb: 3,
+          }}
+        >
+          Bienvenidos a Saber Raíz
+        </Typography>
+
         <Typography
           variant={isMobile ? "h4" : "h2"}
           component="h1"
@@ -72,6 +92,19 @@ function Welcome() {
           deleitar tus sentidos, ayudar a mejorar el bienestar general y elevar
           tus comidas y bebidas a otro nivel.
         </Typography>
+        <Typography
+          variant="subtitle1"
+          sx={{
+            backgroundColor: "#6C4027",
+            color: "#F3F8FB",
+            padding: "8px 16px",
+            borderRadius: "4px",
+            mb: 4,
+            fontWeight: "500",
+          }}
+        >
+          ¡Envío gratis en Villa Mercedes! 🚚
+        </Typography>
         <Box
           sx={{
             display: "flex",
@@ -81,6 +114,18 @@ function Welcome() {
             mt: 4,
           }}
         >
+          <Button
+            variant="contained"
+            onClick={scrollToProducts}
+            sx={{
+              backgroundColor: "#6C4027",
+              "&:hover": {
+                backgroundColor: "#8B5E3C",
+              },
+            }}
+          >
+            Ver Productos
+          </Button>
           <Link
             href="https://www.instagram.com/saberraiz_"
             target="_blank"
