@@ -23,6 +23,7 @@ export default function ProductCard({
         margin: 2,
         width: "100%",
         maxWidth: 500,
+        height: { xs: "auto", md: 550 },
         transition: "all 0.3s ease-in-out",
         border: "1px solid rgba(108, 64, 39, 0.1)",
         position: "relative",
@@ -102,6 +103,25 @@ export default function ProductCard({
           >
             {product.description}
           </Typography>
+          {product.usage && (
+            <Typography
+              variant="subtitle2"
+              color="#6C4027" // color más destacado que el gris
+              fontFamily="Montserrat"
+              sx={{
+                mt: 1,
+                mb: 1,
+                fontStyle: "italic",
+                fontSize: "0.9rem",
+                backgroundColor: "rgba(108, 64, 39, 0.05)", // fondo suave
+                padding: "4px 8px",
+                borderRadius: "4px",
+                display: "inline-block",
+              }}
+            >
+              Uso: {product.usage}
+            </Typography>
+          )}
           <Typography
             variant="h6"
             fontWeight="700"
