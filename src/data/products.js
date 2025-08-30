@@ -25,7 +25,7 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
       "Con especias antibacterianas y antivirales, fortalece el sistema inmunológico y protege contra resfriados.",
     usage: "Consumir caliente como bebida reconfortante y nutritiva.",
     image: "/lechedorada.png",
-    price: 4500,
+    price: 4000,
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
       "Infusión de hibiscus con propiedades antioxidantes y refrescantes.",
     usage: "Disfrutar como té frío o caliente, según tu preferencia.",
     image: "/hibiscus.png",
-    price: 4500,
+    price: 4000,
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
     usage:
       "Como infusión o para agregar a la yerba mate, ideal para potenciar el sabor.",
     image: "/blendSpecias.png",
-    price: 4500,
+    price: 4000,
   },
 ];
 
