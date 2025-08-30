@@ -13,7 +13,7 @@ export default function ContactUs() {
         alignItems: "center",
         justifyContent: "center",
         minHeight: "100vh",
-        backgroundColor: "#81653D",
+        background: "linear-gradient(135deg, #6C4027 0%, #8B5E3C 100%)",
         px: 2,
         py: 5,
       }}

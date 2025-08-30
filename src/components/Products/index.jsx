@@ -71,6 +71,7 @@ export default function Products() {
           flexWrap: "wrap",
           alignItems: "center",
           mt: 4,
+          gap: 2,
         }}
       >
         {products.map((product) => {

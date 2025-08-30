@@ -111,6 +111,13 @@ export default function Carrito({ productos, modificarCantidad, negocio }) {
           onClose={() => setVisible(false)}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
+          disableScrollLock={true}
+          keepMounted
+          sx={{
+            "& .MuiModal-backdrop": {
+              backgroundColor: "rgba(0, 0, 0, 0.8)",
+            },
+          }}
         >
           <Box sx={style}>
             {etapa == 1 ? (

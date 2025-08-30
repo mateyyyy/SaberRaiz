@@ -20,7 +20,7 @@ export default function ProductCard({
         p: 3,
         backgroundColor: "#FFF",
         borderRadius: 3,
-        margin: 2,
+
         width: "100%",
         maxWidth: 600,
         height: { xs: "auto", md: 550 },
