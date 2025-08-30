@@ -7,12 +7,12 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
     usage:
       "Perfecto para dar un toque exótico a tragos y comidas, o para tus infusiones.",
     image: "/molinillo.png",
-    price: 25000,
+    price: 20000,
     minQuantity: 5,
     pricing: [
-      { min: 5, price: Math.round(25000 * 0.85) }, // 21.250
-      { min: 20, price: Math.round(25000 * 0.7) }, // 17.500
-      { min: 50, price: Math.round(25000 * 0.55) }, // 13.750
+      { min: 5, price: Math.round(20000 * 0.85) }, // 21.250
+      { min: 20, price: Math.round(20000 * 0.7) }, // 17.500
+      { min: 50, price: Math.round(20000 * 0.55) }, // 13.750
     ],
   },
   {
@@ -21,12 +21,12 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
     description:
       "Molinillo con Blend de especias: jengibre, cúrcuma, cardamomo, pimienta y limón.",
     image: "/molinillo combo.png",
-    price: 30000,
+    price: 23000,
     minQuantity: 5,
     pricing: [
-      { min: 5, price: Math.round(30000 * 0.85) }, // 25.500
-      { min: 20, price: Math.round(30000 * 0.7) }, // 21.000
-      { min: 50, price: Math.round(30000 * 0.55) }, // 16.500
+      { min: 5, price: Math.round(23000 * 0.85) }, // 25.500
+      { min: 20, price: Math.round(23000 * 0.7) }, // 21.000
+      { min: 50, price: Math.round(23000 * 0.55) }, // 16.500
     ],
   },
   {
@@ -51,12 +51,12 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
       "Infusión de hibiscus con propiedades antioxidantes y refrescantes.",
     usage: "Disfrutar como té frío o caliente, según tu preferencia.",
     image: "/hibiscus.png",
-    price: 4500,
+    price: 4000,
     minQuantity: 4,
     pricing: [
-      { min: 5, price: Math.round(4500 * 0.85) }, // 3.825
-      { min: 20, price: Math.round(4500 * 0.7) }, // 3.150
-      { min: 50, price: Math.round(4500 * 0.55) }, // 2.475
+      { min: 5, price: Math.round(4000 * 0.85) }, // 3.825
+      { min: 20, price: Math.round(4000 * 0.7) }, // 3.150
+      { min: 50, price: Math.round(4000 * 0.55) }, // 2.475
     ],
   },
   {
@@ -67,12 +67,12 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
     usage:
       "Como infusión o para agregar a la yerba mate, ideal para potenciar el sabor.",
     image: "/blendSpecias.png",
-    price: 4500,
+    price: 4000,
     minQuantity: 5,
     pricing: [
-      { min: 5, price: Math.round(4500 * 0.85) }, // 3.825
-      { min: 20, price: Math.round(4500 * 0.7) }, // 3.150
-      { min: 50, price: Math.round(4500 * 0.55) }, // 2.475
+      { min: 5, price: Math.round(4000 * 0.85) }, // 3.825
+      { min: 20, price: Math.round(4000 * 0.7) }, // 3.150
+      { min: 50, price: Math.round(4000 * 0.55) }, // 2.475
     ],
   },
 ];
