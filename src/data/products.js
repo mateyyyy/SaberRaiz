@@ -34,7 +34,7 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
       "Infusión de hibiscus con propiedades antioxidantes y refrescantes.",
     usage: "Disfrutar como té frío o caliente, según tu preferencia.",
     image: "/hibiscus.png",
-    price: 4000,
+    price: 2500,
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
     usage:
       "Como infusión o para agregar a la yerba mate, ideal para potenciar el sabor.",
     image: "/blendSpecias.png",
-    price: 4000,
+    price: 2500,
   },
 ];
 
