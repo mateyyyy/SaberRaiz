@@ -94,11 +94,15 @@ export default function ProductCard({
           <Typography
             variant="body2"
             color="text.secondary"
-            fontFamily="Montserrat"
+            fontSize={{
+              xs: "0.8rem",
+              sm: "0.9rem",
+              md: "1rem",
+            }}
             sx={{
+              wordBreak: "break-word",
               mt: 1,
               lineHeight: 1.6,
-              fontSize: "0.95rem",
             }}
           >
             {product.description}
@@ -106,7 +110,7 @@ export default function ProductCard({
           {product.usage && (
             <Typography
               variant="subtitle2"
-              color="#6C4027" // color más destacado que el gris
+              color="#6C4027"
               fontFamily="Montserrat"
               textAlign={"center"}
               sx={{
@@ -114,7 +118,7 @@ export default function ProductCard({
                 mb: 1,
                 fontStyle: "italic",
                 fontSize: "0.9rem",
-                backgroundColor: "rgba(108, 64, 39, 0.05)", // fondo suave
+                backgroundColor: "rgba(108, 64, 39, 0.05)",
                 padding: "4px 8px",
                 borderRadius: "4px",
                 display: "inline-block",
@@ -123,20 +127,6 @@ export default function ProductCard({
               {product.usage}
             </Typography>
           )}
-          <Typography
-            variant="h6"
-            fontWeight="700"
-            color="#6C4027"
-            fontFamily="Montserrat"
-            sx={{
-              mt: 2,
-              display: "flex",
-              alignItems: "center",
-              gap: 1,
-            }}
-          >
-            ${product.price.toLocaleString("es-AR")}
-          </Typography>
         </Box>
 
         {carrito[product.id] ? (
@@ -217,7 +207,7 @@ export default function ProductCard({
               transition: "all 0.3s ease",
             }}
           >
-            Agregar al carrito
+            Consultar por este blend
           </Button>
         )}
       </Box>

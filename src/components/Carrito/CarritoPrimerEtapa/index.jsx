@@ -183,14 +183,6 @@ export default function CarritoPrimerEtapa({
             justifyContent: "space-between",
           }}
         >
-          <Typography
-            variant="h6"
-            component="h2"
-            color="primary"
-            fontSize={fontSizeResponsive}
-          >
-            Total: ${total.toLocaleString("es-AR")}
-          </Typography>
           <Box>
             <Button
               onClick={() => setVisible(false)}

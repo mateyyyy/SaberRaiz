@@ -61,7 +61,7 @@ export default function ProdItem({ prod, res = 70 }) {
             wordBreak: "break-word",
           }}
         >
-          {prod.cant} x ${prod.price.toLocaleString("es-AR")}
+          Cantidad: {prod.cant}
         </Typography>
       </Box>
     </Box>

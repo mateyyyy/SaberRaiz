@@ -7,7 +7,6 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
     usage:
       "Perfecto para dar un toque exótico a tragos y comidas, o para tus infusiones.",
     image: "/molinillo.png",
-    price: 25000,
   },
   {
     id: 2,
@@ -16,7 +15,6 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
       "Molinillo con Blend de especias: jengibre, cúrcuma, cardamomo, pimienta y limón.",
 
     image: "/molinillo combo.png",
-    price: 30000,
   },
   {
     id: 3,
@@ -25,7 +23,6 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
       "Con especias antibacterianas y antivirales, fortalece el sistema inmunológico y protege contra resfriados.",
     usage: "Consumir caliente como bebida reconfortante y nutritiva.",
     image: "/lechedorada.png",
-    price: 4000,
   },
   {
     id: 4,
@@ -34,7 +31,6 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
       "Infusión de hibiscus con propiedades antioxidantes y refrescantes.",
     usage: "Disfrutar como té frío o caliente, según tu preferencia.",
     image: "/hibiscus.png",
-    price: 2500,
   },
   {
     id: 5,
@@ -44,7 +40,6 @@ Propiedades antiinflamatorias y antioxidantes, ideal para realzar sabores`,
     usage:
       "Como infusión o para agregar a la yerba mate, ideal para potenciar el sabor.",
     image: "/blendSpecias.png",
-    price: 2500,
   },
 ];
 

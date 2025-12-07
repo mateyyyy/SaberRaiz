@@ -3,16 +3,9 @@ export const MessageGenerator = (productos, personalData, total) => {
 📦 *¡Hola! Me gustaría hacer un pedido* 🌿🫖
 
 🧾 *Detalle del pedido:*
-${productos
-  .map(
-    (prod) =>
-      `• _${prod.cant} x ${prod.name} — *$${(prod.price * prod.cant).toFixed(
-        2
-      )}*_`
-  )
-  .join("\n")}
+${productos.map((prod) => `• _${prod.cant} x ${prod.name}_`).join("\n")}
 
-💵 *Total: $${total.toFixed(2)}*
+💬 *Preferiría que me confirmes el total y la disponibilidad de los productos.*
 
 🧍 *Nombre:* ${personalData.name}
 🚚 *Método de envío:* ${personalData.metodoEnvio}

@@ -48,13 +48,8 @@ export default function Carrito({ productos, modificarCantidad, negocio }) {
     if (productos.length == 0) {
       setVisible(false);
     }
-    let precioFinal = 0;
-    if (productos) {
-      productos.map((prod) => {
-        precioFinal += prod.price * prod.cant;
-      });
-      setTotal(precioFinal);
-    }
+    // Ya no calculamos total con precios
+    setTotal(0);
   }, [productos]);
 
   return (

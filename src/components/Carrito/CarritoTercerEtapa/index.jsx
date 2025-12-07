@@ -166,9 +166,11 @@ export default function CarritoTercerEtapa({
             ))}
           </Grid>
           <Grid size={6}>
-            <Typography variant="h6" component="h3" color="primary">
-              Total : ${total.toLocaleString("es-AR")}
-            </Typography>
+            <Typography
+              variant="h6"
+              component="h3"
+              color="primary"
+            ></Typography>
           </Grid>
         </Grid>
 
